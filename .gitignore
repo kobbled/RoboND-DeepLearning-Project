@@ -103,3 +103,18 @@ ENV/
 
 RUNS/
 
+#project specific
+data/raw_sim_data/
+data/raw_sim_data.zip
+data/processed_sim_data/
+data/processed_sim_data.zip
+data/train/
+data/train.zip
+data/validation/
+data/validation.zip
+data/sample_evaluation_data/
+data/sample_evaluation_data.zip
+RoboND_QuadSim/
+
+
+
