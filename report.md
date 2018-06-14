@@ -1,6 +1,6 @@
 # Project : Follow Me
 
-##Introduction
+## Introduction
 
 The goal of this project is to train an Fully Convolutional Network (FCN) in detecting and locating an individual in an environment that is crowded with other people. This model can be utilized by a drone to track and follow the target.
 
