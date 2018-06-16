@@ -130,7 +130,7 @@ Even after more data was collected to try and train the model to segment the her
 
 To improve this model a deeper model with more features could be trained to try an detect these low resolution features. More data could also be taken as a dataset of <10000 is fairly small and suseptable to underfitting. increasing the numebr of epochs by a large amount might also help, however this will drastically incresase the training time of the model. Adding regularization, dropout, and pooling layers to the model might also help improve performance.
 
-Creating another object to follow in the simulator such as an animal or another human would be a good way to challenge the verasatility of this model. It should easily be able to classify between an animal and human given the current use case.
+The current model trained on the current data for this project would not work with the objective of following another object/creature. However, the current network architecture could be used if the proper training dataset was obtained with a new object/creature. Since this model is a supervised learning model, there would need to be someway to assign error to the output of the model while training it on the new object/creature in order for it to learn. Modifying the masking process used to segment the humans and the target from the rest of the environment, would need to now include the new object/creature. Proper masking of the new object/creature could now be used to reinforce the learning of the model, error can be assigned to the output, and a loss function can be obtained.
 
 The image below was taken from the Unity simulator in follow me mode using the model trained in this project:
 
